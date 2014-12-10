@@ -55,21 +55,145 @@
 
 				<!-- SLIDE 2 -->
 				<section>
+					<!-- TOPMOST SLIDE -->
+					<section>
+						<h2>Features of the Javascript Language</h2>
+						<img src="/img/js.png" alt="Javascript logo" style="width:200px"></img>
+					</section>
+
+					<!--NESTED SLIDE 1 -->
+					<section>
+						<ul>
+							<li>Functional paradigm</li>
+							<li>Ability to pass functions as values</li>
+							<li>Dynamically typed</li>
+							<li>Mostly interpreted, but can be compiled in some instances</li>
+						</ul>
+					</section>
+				
+				</section>
+
+				<!-- SLIDE 3 -->
+				<section>
+					<!-- TOPMOST SLIDE -->
 					<section>
 						<h2>History of Javascript</h2>
 						<p>
-							<img src="./img/netscape.gif" alt="Netscape logo" style="width:200px"></img>
+							<img src="/img/netscape.gif" alt="Netscape logo" style="width:200px"></img>
 						</p>
 					</section>
-					<!-- SLIDE 2, NESTED SLIDE 1 -->
+					<!-- NESTED SLIDE 1 -->
 					<section>
 						<ul>
 							<li>JS started in 1995 by Netscape</li>
-							<li>Originally was meant for client side scripting of simple events</li>
+							<li>Originally was meant for client side scripting of simple user initiated events</li>
+							<li>Expanded to other web browsers around 1997</li>
+							<li>Fell out of favor for a while around 1999-2000</li>
 						</ul>
 					</section>
 				</section>
 
+				<!-- SLIDE 4 -->
+				<section>
+					<!-- TOPMOST SLIDE -->
+					<section>
+						<h2>What happened?</h2>
+					</section>
+
+					<!-- NESTED SLIDE 1 -->
+					<section>
+						<h2>This guy happened</h2>
+						<iframe width="630" height="473" src="//www.youtube.com/embed/HhdDZk45HDI?start=118" frameborder="0" allowfullscreen></iframe>
+					</section>
+
+					<!-- NESTED SLIDE 2 -->
+					<section>
+						<ul>
+							<li>In 1998, the Department of Justice sued Microsoft over alligations that the company had used its substantial market share in the computing space to upend and effectively destroy competing technologies</li>
+							<li>One of the issues at hand were Windows-specific implementations of both Java and Javascript</li>
+							<li>MS Java Virtual Machine and JScript</li>
+							<li>This mess resulted in Javascript falling out of favor for a few years in fear of Microsoft potentially controlling the language</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- SLIDE 5 -->
+				<section>
+					<h2>Server-side Javascript</h2>
+					<img src="/img/nodejs.png" alt="Node.js logo" style="height:200px"></img>
+				</section>
+
+				<!-- SLIDE 6 -->
+				<section>
+					<!-- TOPMOST SLIDE -->
+					<section>
+						<h2>Why now?</h2>
+					</section>
+
+					<!-- NESTED SLIDE 1 -->
+					<section>
+						<ul>
+							<li>Most modern computers have web browsers shipped with them</li>
+							<li>Just-in-time compilation techniques to improve O(n) runtime efficiencies</li>
+							<li>Entire operating systems designed to pull data from the Internet at all times</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- SLIDE 7 -->
+				<section>
+					<!--TOPMOST SLIDE -->
+					<section>
+						<h2>The MEAN Stack</h2>
+						<img src="/img/mean.png" alt="MEAN logo" style="height:200px"></img>
+					</section>
+
+					<!-- NESTED SLIDE 1 -->
+					<section>
+						<h3>MEAN is an acronym</h3>
+						<ul>
+							<li><u>M</u>ongoDB - JSON/dynamic schema based DBMS</li>
+							<li><u>E</u>xpress.js - Javascript based webserver</li>
+							<li><u>A</u>ngularJS - Javascript controller framework created by Google</li>
+							<li><u>N</u>ode.js - Server-side Javascript runtime based on Google Chrome's V8 JS engine</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- SLIDE 8 -->
+				<section>
+					<h2>Example MEAN code (from Express)</h2>
+					<pre><code data-trim>
+//import express server
+var express = require('express');
+
+//decalre app container variable
+var app = express();
+
+//define root HTTP GET request
+app.get('/', function(req, res){
+	res.sendFile(__dirname + '/index.html');
+});
+
+//Event listener
+app.listen(3000, function(){
+	console.log("Express server listening on port 3000...");
+});
+					</code></pre>
+				</section>
+
+				<!-- SLIDE 9 -->
+				<section>
+					<!-- TOPMOST SLIDE -->
+					<section>
+						<h2>Advantages and Disadvantages of Javascript on the Server</h2>
+					</section>
+
+					<!-- NESTED SLIDE 1 -->
+					<section>
+						
+					</section>
+				</section>
 
 			</div>
 

@@ -16,15 +16,9 @@ Some reveal.js features, like external markdown and speaker notes, require that 
 
 5. Navigate to the reveal.js folder ```$ cd reveal.js```
 
-6. Install dependencies
-```sh
-$ npm install
-```
+6. Install dependencies ```$ npm install```
 
-7. Serve the presentation and monitor source files for changes
-```sh
-$ grunt serve
-```
+7. Serve the presentation and monitor source files for changes ```$ grunt serve```
 
 8. Open <http://localhost:8000> to view your presentation
 

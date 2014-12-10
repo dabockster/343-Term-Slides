@@ -2,7 +2,7 @@
 
 ### December 10th, 2014
 
-Built using [Reveal.js.](http://lab.hakim.se/reveal-js)
+Built using [Reveal.js](http://lab.hakim.se/reveal-js)
 
 ### Full setup
 

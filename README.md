@@ -12,15 +12,9 @@ Some reveal.js features, like external markdown and speaker notes, require that 
 
 2. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
 
-4. Clone the reveal.js repository
-```sh
-$ git clone https://github.com/hakimel/reveal.js.git
-```
+4. Clone the reveal.js repository ```$ git clone https://github.com/hakimel/reveal.js.git```
 
-5. Navigate to the reveal.js folder
-```sh
-$ cd reveal.js
-```
+5. Navigate to the reveal.js folder ```$ cd reveal.js```
 
 6. Install dependencies
 ```sh
